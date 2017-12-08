@@ -33,6 +33,7 @@ Em ordem de importância. Quando falamos em index.php a própria nomenclatura j�
 
 Em seguida, o style.css é o principal arquivo de estilos do nosso tema. Entretanto, em seu conteúdo trás informações importantes também para o próprio WordPress, como nome do tema, desenvolvedor, links, tags… No nosso tema em questão, as informações são estas:
 
+```CSS
 /*
   Theme Name: Mere Lite
   Theme URI: https://github.com/brunodarshan/mere-lite
@@ -45,6 +46,7 @@ Em seguida, o style.css é o principal arquivo de estilos do nosso tema. Entreta
   Text Domain: mere-lite
   Tags: blog, bootstrap, simple, lite website
 */
+```
 
 Por ultimo, mas não menos importante temos o header.php e footer.php. Estes fazem parte da composição geral do template. Carrega dados importantes como o cabeçalho html com estilos e scripts. Para isso usa algumas funções que veremos em breve e que são dependentes do nosso functions.php.
 
@@ -94,3 +96,7 @@ _index.php_
  <span> <?php bloginfo('description');?> </span>
  
 ```
+
+Pronto. Temos agora algo pra mostrar pra a família no jantar de natal.
+
+No próximo post vamos nos aprofundar em desenvolver a estrutura de posts e inclusão de scripts css/JS. Até lá!
