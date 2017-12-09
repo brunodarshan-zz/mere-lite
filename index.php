@@ -9,7 +9,7 @@
    </h2>
   </header>
 <div>
-  <?php the(); ?>
+  <?php the_content(); ?>
 </div>
 </article>
 
