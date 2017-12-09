@@ -8,3 +8,7 @@
 </head>
 <body>
 <!-- A mágica começa aqui! -->
+<header>
+    <h1> <?php bloginfo('name');?> </h1>
+    <span> <?php bloginfo('description');?> </span>
+</header>
