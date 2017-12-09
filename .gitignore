@@ -1,2 +1,4 @@
-vendor/
-!vendor/*/dist
+vendor/*
+!vendor/bootstrap/dist
+!vendor/jquery/dist
+!vendor/tether/dist
