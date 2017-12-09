@@ -13,8 +13,8 @@
   "license": "MIT",
   "ignore": [
     "**/.*",
-    "node_modules",
     "vendor",
+    "!vendor/../dist",
     "test",
     "tests"
   ]
