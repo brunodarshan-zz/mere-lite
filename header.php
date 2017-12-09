@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <?php wp_head();?>
+    <?php wp_head(); ?>
 </head>
 <body>
 <!-- A mágica começa aqui! -->
-<header>
-    <h1> <?php bloginfo('name');?> </h1>
-    <span> <?php bloginfo('description');?> </span>
+<header class="page-header" id="mereHeader">
+    <div class="container">
+        <h1> <?php bloginfo('name');?> </h1>
+        <span> <?php bloginfo('description');?> </span>
+    </div>
 </header>
