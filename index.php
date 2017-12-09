@@ -1,5 +1,6 @@
-//index.php
-<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+
+<?php if (have_posts()): ?>
+<?php while (have_posts()) : the_post(); ?>
 <article>
   <header>
    <h2>
@@ -12,5 +13,7 @@
   <?php the_content(); ?>
 </div>
 </article>
+<?php endwhile; ?>
+<?php endif; ?>
 
-<?php endif; endwhile; ?>
+
