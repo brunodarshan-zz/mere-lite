@@ -14,8 +14,7 @@
   "ignore": [
     "**/.*",
     "vendor",
-    "!vendor/*/dist",
     "test",
     "tests"
-  ],
+  ]
 }
