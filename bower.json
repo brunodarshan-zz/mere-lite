@@ -1,0 +1,21 @@
+{
+  "name": "mere-lite",
+  "homepage": "https://github.com/brunodarshan/mere-lite",
+  "authors": [
+    "brunodarshan <brunodarshan@gmail.com>"
+  ],
+  "description": "",
+  "main": "index.php",
+  "keywords": [
+    "wordpress",
+    "theme"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
