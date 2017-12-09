@@ -13,8 +13,10 @@
                             </h2>
                         </header>
 
-                        <div class="card-text">
+                        <div class="card-block">
+                            <div class="cart-text">
                             <?php the_content(); ?>
+                            </div>
                         </div>
                     </article>
                     </div>
